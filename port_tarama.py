@@ -34,9 +34,9 @@ elif secim==3:
         os.system(f"nmap -p {port} -sV -sS -A -vv {adres}")
     else:
         print("Hatalı Secim Cıkış yapılıyor....")
-        quit()
+    
 
 else:
     print("Hatalı Seçim Cıkıs yapılıyor...")
-    quit()
+
 
